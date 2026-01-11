@@ -1713,7 +1713,7 @@ export function exportRequests() {
                 response: {
                     status: req.response.status,
                     headers: resHeadersObj,
-                    body: (req.response && req.response.content && req.response.content.text) || req.responseBody || ""
+                    body: req.response?.content?.text || req.responseBody || ""
                 },
                 timestamp: req.capturedAt
             };
