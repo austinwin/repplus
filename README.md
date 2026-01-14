@@ -25,6 +25,7 @@
 </p>
 
 # rep+
+UI needs to redo - I'm thinking of redoing all based upon the workspace concept.
 
 rep+ is a lightweight Chrome DevTools extension inspired by Burp Suite's Repeater, now supercharged with AI. I often need to poke at a few requests without spinning up the full Burp stack, so I built this extension to keep my workflow fast, focused, and intelligent with integrated LLM support.
 
